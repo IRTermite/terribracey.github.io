@@ -1,0 +1,170 @@
+body {background-color:#4d4d4d; color:white; font-family:"Verdana"}
+h1   {color:#ff6600}
+h2   {color:white}
+h3   {color:black}
+p    {color:white}
+p2   {color:black}
+link {color:#ff6600}
+visted {color:#ff6600}
+hover {color:#ff6600}
+active {color:#ff6600}
+
+
+div.container {
+    margin: auto;
+    width: 80%;
+    background: none;
+    border: 1px solid gray;
+    padding: none;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    background: none;
+    border: 1px solid gray;
+    padding: none;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+div#header {
+	margin: auto;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer {
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+.left {
+    margin: auto;
+    float: none;
+    width: auto;
+    height: auto;
+    background: none;
+    text-align: left;
+    padding: 30px;
+}
+
+.right {
+    margin: auto;
+    margin-left: none;
+    float: none;
+    width: auto;
+    height: auto;
+    background: white;
+    text-align: left;
+    padding: 15px;
+}
+
+@media all and (min-width: 768px) {
+    .left {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .right {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    .footer {-webkit-order:3;order:3;}
+}
+
+div#panel {
+    margin: auto;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+    background: white;
+    text-align: left;
+    padding: 15px;
+    margin: 15px;
+}
+
+section {
+    width: auto;
+    height: auto;
+    background: white;
+    margin: auto;
+    text-align: left;
+    padding: 15px;
+}
+div#one {
+    width: 50%;
+    height: auto;
+    background: none;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+div#two {
+    margin-left: 50%;
+    width: 50%;
+    height: auto;
+    background: none;
+    text-align: center;
+    padding: 5px;
+}
+
+/* SVG Blocks */
+
+/* SVG example
+https://css-tricks.com/using-svg/
+.blocks {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(kiwi.svg);
+  background-size: 250px 100px;
+}
+*/
+.blocks-svg {
+    width: 200px;
+    height: 100px;
+}
+
+.blocks-rect {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-size: 250px 100px;
+    fill: #ff6600;
+    stroke-width: 10;
+    stroke: black;
+}
+
+.blocks-text {
+    text-anchor: middle;
+    x: 50%;
+    y: 60%;
+    text-color: black;
+    fill: black;
+    font-size: 22px;
+}
+
+/*    <svg width="400" height="100" xmlns:xlink="https://about.me/dbracey">
+    <a xlink:href="https://about.me/dbracey" target="_blank">
+    <rect style="fill:#ff6600;stroke-width:10;stroke:black" class="blocks"/>
+    <text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
+    About.me
+    </text>
+    </a>
+    Sorry, your browser does not support inline SVG.
+    </svg>
+*/

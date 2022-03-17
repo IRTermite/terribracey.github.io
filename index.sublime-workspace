@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install ",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Paca",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install text pasty",
+			"import urllib.request,os,hashlib; h = '261dd1222b4693ce6d4f85f9c827ac06' + '6d5ab8ebdd020086947172a8a1356bb6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Thoughts for the Week.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/RPC Links and Bookmarks.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/RPC Communications Specs.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/RAX OneDrive Share Sync Mod.txt",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/2017 RRG Mentor Circle.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/0_General_Notes.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Telerik-28800.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/123 Comms Ltd - 1766949.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/AGT-4978272.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Big_Sofa-4955580.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Ecrebo-1595446.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Pearson-1664075.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/peopleDoc-2858032_and_2858037.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Summit_Media-24364.md",
+		"/Users/dbracey/Google Drive/nuc-net--interfaces.conf",
+		"/Users/dbracey/Dropbox/Bills/saws conf 2017-05-04 conf1973028.txt",
+		"/Users/dbracey/Dropbox/Bills/CPS_902WMagnolia_20170425_1_payment_notes.pdf",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Inpixon 4992520.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/Leo_Vegas-2871118.md",
+		"/Users/dbracey/Desktop/frames.html",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Customers/peopleDoc_SAS-2858037.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/rpc-autocust/00-TEMPLATE/01-TEMPLATE-AMG-RPC-Current.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/rpc-autocust-tools/AMG-Governator/vars_governator.sh",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/rpc-autocust/4686294-OSIC/4686294-OSIC-AMG.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/rpc-autocust/00-TEMPLATE/00-TEMPLATE-AMG.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/rpc-autocust/00-TEMPLATE/README.md",
+		"/Users/dbracey/Library/Application Support/Mixxx/controllers/Hercules-DJ-Control-Instinct-scripts.js",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/rpc-autocust/00-TEMPLATE/4686294-OSIC-AMG.md",
+		"/Users/dbracey/OneDrive - Rackspace Inc/RPC/ADM Stuff/RPC ADM AMG Template Markdown.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Staffing_Calendar.md",
+		"/Users/dbracey/Google Drive/Rackspace/RAXNotes/Dales_Goals_to_ADMs.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds-requests/README.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds/README.md",
+		"/Users/dbracey/Desktop/text.html",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds/Message_Templates/Handover_Cluster_BareMetal.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds/Message_Templates/Notification_Cluster_Request_Approval.md",
+		"/Users/dbracey/OneDrive - Rackspace Inc/RPC/RPC Customer List Test.csv",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/IRTermite/cacaw.us/public_html/index.html",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/IRTermite/irtermite.github.io/index.html",
+		"/Users/dbracey/Downloads/termitewerksinfo.wordpress.2017-01-18.xml",
+		"/Users/dbracey/Google Drive/Backups.Sites/TermiteWerks WordPress Backup/UpdraftPlus Backup:Restore.txt",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/openstack/openstack-ansible/playbooks/openstack-hosts-setup.yml",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/stackforge/os-ansible-deployment/scripts/maassetup.sh",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/IRTermite/OpenStack-Helpers/mass-project-quota.sh",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds-requests/ISSUE_TEMPLATE.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-cloud1-region2-nodelist.csv",
+		"/Users/dbracey/Box Sync/RPC/OSIC/Cloud 1/OSIC Cloud 1 nodes list.csv",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds-requests/.github/ISSUE_TEMPLATE.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds-requests/github/ISSUE_TEMPLATE.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.rackspace.com/dbracey/termites-scripts/all_the_devices.sh",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds/Notification_Cluster_Request_Approval.md",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/osic/osic-clouds/Cluster_Request_Approval_Notification.md",
+		"/Users/dbracey/Dropbox/Websites/wwcdrdz-bootstrap/index.html",
+		"/Users/dbracey/Dropbox/0_scripts/gitRepos/github.com/IRTermite/cacaw.us/web/index.html",
+		"/Users/dbracey/Dropbox/Websites/dalebracey/public_html/index.html",
+		"/Users/dbracey/Dropbox/0_scripts/cacawus.sublime-project",
+		"/Users/dbracey/Downloads/9781785884610_Code/chap3-code/chap3-code/base.yml",
+		"/Users/dbracey/Downloads/Nodepool- OSIC-1467926641145.json",
+		"/Users/dbracey/Downloads/hello-world/components/HelloWorld.xml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"glance",
+			" ",
+			"==============================",
+			"******************************",
+			"########################################",
+			"***************",
+			"########################################",
+			"S",
+			"R",
+			"Q",
+			"O",
+			"P",
+			"O",
+			"M",
+			"N",
+			"object-disk",
+			"block-disk",
+			"comp-disk",
+			"cloud2",
+			"**\n",
+			" ",
+			">\n",
+			"font",
+			"type",
+			"row",
+			"span6",
+			"font-family",
+			"background",
+			"span3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"******************************",
+			"==============================",
+			"******************************",
+			"***************",
+			"T",
+			"S",
+			"R",
+			"Q",
+			"O",
+			"P",
+			"O",
+			"M",
+			"comp-ironic",
+			"r2.cloud1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

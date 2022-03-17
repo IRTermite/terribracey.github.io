@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">	
+	<meta name=viewport content="width=device-width, initial-scale=0.75">
+	<title>DaleBracey.com</title>
+</head>
+
+<body>
+
+<div class="flex-container">
+
+	<div id="header">
+	<h1>Dale Bracey</h1>
+	<br>
+	<p>IRTermite == I aRe Termite</p>
+	</div>
+
+	<div class="left">
+	<img src="./images/irtermite-avatar.png" alt="irtermite-avatar" style="width:auto;height:auto;">
+	</div>
+
+	<div class="right">
+		<h3>Profiles</h3>
+
+		<a href="https://www.facebook.com/dale.bracey">
+		<img src="./images/Social%20Media%20Icons/PNG/Circle%20Black%20White/Facebook.png" alt="Facebook" style="width:30px;height:30px;">
+		</a>
+		
+		<a href="https://twitter.com/IRTermite">
+		<img src="./images/Social%20Media%20Icons/PNG/Circle%20Black%20White/Twitter.png" alt="Twitter" style="width:30px;height:30px;">
+		</a>
+		
+		
+		<a href="https://www.linkedin.com/pub/dale-bracey/5/593/a17">
+		<img src="./images/Social%20Media%20Icons/PNG/Circle%20Black%20White/Linkedin.png" alt="LinkedIn" style="width:30px;height:30px;">
+		</a>
+		
+		<a href="https://instagram.com/irtermite/">
+		<img src="./images/Social%20Media%20Icons/PNG/Circle%20Black%20White/Instagram.png" alt="icon-facebook" style="width:30px;height:30px;">
+		Instagram</a>
+		<br>
+
+		<a href="https://www.reddit.com/user/IRTermite/">
+		<img src="./images/Social%20Media%20Icons/PNG/Circle%20Black%20White/Reddit.png" alt="icon-facebook" style="width:30px;height:30px;">
+		Reddit</a>
+		<br>
+
+		<a href="https://github.com/irtermite">
+		<img src="./images/Social%20Media%20Icons/PNG/Circle%20Black%20White/Github.png" alt="icon-facebook" style="width:30px;height:30px;">
+		GitHub</a>
+		<br>
+		
+		<a href="https://ello.co/irtermite">
+		Ello.com</a>
+		<br>
+
+		<a href="https://about.me/dbracey">
+		about.me</a>
+		<br>	
+		
+		<h3>Pages</h3>
+
+		<a href="http://termitewerks.info">Blog - TermiteWerks.info</a><br>
+
+		<h3>Facebook Pages</h3>
+
+		<a href="https://www.facebook.com/BraceyHaus">BraceyHaus</a><br>
+		<br>
+		
+		<p2>Pages Managed</p2><br>
+		<a href="https://www.facebook.com/pages/RackerGamers/226866037360572">Facebook Page - RackerGamers</a><br>
+		<a href="https://www.facebook.com/pages/BC-Leather-Designs-Unique-Finds/966683870063967">Facebook Page - B&C Leather Designs & Unique Finds</a><br>
+		<a href="https://www.facebook.com/KRackRadio">Facebook Page - KRack Radio</a><br>
+		<a hred="https://www.facebook.com/TheTaxmenSA">Facebook Page - The Taxmen</a><br>
+		<a hred="https://www.facebook.com/chiapassa">Casa Chiapas</a><br>
+		
+	</div>
+
+	<div class="footer">
+	Dale Bracey, ITIL
+	</div>
+
+</div>
+
+</body>
+</html>
